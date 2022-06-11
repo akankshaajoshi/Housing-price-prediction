@@ -12,8 +12,8 @@ Methodologies and approaches applied in this project are:
  
 2.EDA (Exploratory data analysis): Infographics were created using PyPlot and Seaborn to understand the relationship among data variables. Heatmaps describing the correlation between variables, histplots of price ranges, data descriptions and value counts for class intervals provide information regarding the data. 
 
-3. Prediction model: Regression models such as Linear Regression, Lasso regression and Ridge regression were first evaluated to fit on the data set. However, due to their unsatisfactory metric evaluation, polynomial fit for ridge regression was tested.
+3.Prediction model: Regression models such as Linear Regression, Lasso regression and Ridge regression were first evaluated to fit on the data set. However, due to their unsatisfactory metric evaluation, polynomial fit for ridge regression was tested.
 
-4. Cross validation: Cross validation is done on the finally scaled and polynomial fitted feature data and label values.
+4.Cross validation: Cross validation is done on the finally scaled and polynomial fitted feature data and label values.
 
 An overall R2 Metric for the test data came out to be 81.5% for the test set and that for 4-fold validation test is given in the .ipynb file.
